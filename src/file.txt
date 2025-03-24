@@ -1,0 +1,3 @@
+hello 300
+sus 40
+somthing 500
