@@ -1,8 +1,7 @@
-import gleam/io
-import transpose_file
+import permutations
 
 pub fn main() {
-  io.debug("hello world :D")
+  // io.debug("hello world :D")
   // echo top_k_words.top_k_words(
   //   [
   //     "the", "the", "i", "love", "word", "love", "i", "sus", "za", "zb", "za",
@@ -14,5 +13,7 @@ pub fn main() {
   //   ["day", "is", "sunny", "the", "the", "the", "sunny", "is", "is"],
   //   4,
   // )
-  echo transpose_file.transpose_file("./src/file.txt")
+  // echo transpose_file.transpose_file("./src/file.txt")
+  // echo categorize_arr.categorize_str_to_tuples("aaabbccccaaa")
+  echo permutations.permutations(["A", "B", "C"])
 }

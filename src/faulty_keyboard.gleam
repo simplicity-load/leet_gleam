@@ -13,7 +13,7 @@ fn faulty_keyboard_iter(input, acc) -> String {
   }
 }
 
-fn split_at(x: String, index: Int) -> #(String, String) {
+pub fn split_at(x: String, index: Int) -> #(String, String) {
   let head = string.slice(x, 0, index)
   let tail = string.slice(x, index, string.length(x))
   #(head, tail)
